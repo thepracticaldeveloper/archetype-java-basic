@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.thepracticaldeveloper</groupId>
     <artifactId>archetype-java-basic-tpd</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>Basic Java Archetype - The Practical Developer</name>
     <url>https://thepracticaldeveloper.com</url>
     <description>A basic Java Archetype for Java 1.8 and 9. It contains some
@@ -29,7 +28,8 @@
         <connection>scm:git:git://github.com/thepracticaldeveloper/archetype-java-basic.git</connection>
         <developerConnection>scm:git:ssh://github.com/thepracticaldeveloper/archetype-java-basic.git</developerConnection>
         <url>https://github.com/thepracticaldeveloper/archetype-java-basic/tree/master</url>
-    </scm>
+      <tag>1.0.0</tag>
+  </scm>
 
     <distributionManagement>
         <snapshotRepository>
