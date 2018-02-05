@@ -6,6 +6,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>Basic Java Archetype - The Practical Developer</name>
     <url>https://thepracticaldeveloper.com</url>
+    <description>A basic Java Archetype for Java 1.8 and 9. It contains some
+        commonly-used test libraries and creates an executable JAR file by default.</description>
 
     <licenses>
         <license>
