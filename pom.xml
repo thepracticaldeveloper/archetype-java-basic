@@ -7,6 +7,10 @@
     <name>Basic Java Archetype - The Practical Developer</name>
     <url>https://thepracticaldeveloper.com</url>
 
+    <properties>
+        <project.scm.id>github</project.scm.id>
+    </properties>
+
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
