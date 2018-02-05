@@ -3,6 +3,9 @@
                       xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
                       name="java-practical">
     <requiredProperties>
+        <requiredProperty key="version">
+            <defaultValue>1.0.0-SNAPSHOT</defaultValue>
+        </requiredProperty>
         <requiredProperty key="java-version">
             <defaultValue>1.8</defaultValue>
             <validationRegex>(1\.8)|(9)\b</validationRegex>
